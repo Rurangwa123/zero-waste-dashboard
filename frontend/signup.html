@@ -56,19 +56,6 @@
       border-radius: 5px;
       font-size: 1rem;
     }
-
-    .signup-form .checkbox-group {
-      display: flex;
-      align-items: center;
-      margin-bottom: 1rem;
-      font-size: 0.9rem;
-      text-align: left;
-    }
-
-    .signup-form .checkbox-group input {
-      margin-right: 0.5rem;
-    }
-
     .signup-form button {
       width: 100%;
       padding: 0.75rem;
@@ -102,7 +89,7 @@
 
   <main>
     <section class="signup-form">
-      <img src="images/final-logoof-zero-waste.png" alt="Zero-Waste Logo" />
+      <img src="images\final logoof zero waste.png" alt="final logoof zero waste"/>
       <h2>Sign Up</h2>
       <form action="/signup" method="POST">
         <input type="text" id="businessname" name="businessname" required placeholder="Business Name" />
@@ -116,12 +103,6 @@
         </select>
         <input type="password" id="password" name="password" required placeholder="Password" />
         <input type="password" id="confirm-password" name="confirm-password" required placeholder="Confirm Password" />
-
-        <div class="checkbox-group">
-          <input type="checkbox" id="terms" name="terms" required />
-          <label for="terms">I agree to Terms & Conditions</label>
-        </div>
-
         <button type="submit">Signup</button>
       </form>
 
