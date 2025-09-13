@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zero-Waste</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #fdfdf6;
+            color: #2e7d32;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+        }
+
+        .signup-form {
+           background-color: #ffffff;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+        }
+
+        .signup-form img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+
+        .signup-form h2 {
+            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+            color: #2e7d32;
+        }
+
+        .signup-form input {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .signup-form button {
+            width: 100%;
+            padding: 0.75rem;
+            background-color: #2e7d32;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #e8f5e9;
+        }   
+    </style>
+</head>
+<body>
+    <main>
+        <section class="signup- form">
+            <img src="" alt="logo">
+            <h2>sign up</h2>
+            <form action ="/signup" method="POST">
+                <input type="text" id="bussinessname" name="bussinessname" required autocomplete="bussiness name" aria-label="Username" placeholder="username"/>
+                <input type="email" id="email" name="email" required autocomplete="email" aria-label="Email" placeholder="email"/>
+                <input type="password" id="password" name="password" required autocomplete="new-password" aria-label="Password" placeholder="password"/>
+                <button type="submit">Sign Up</button>
+
+        </section>
+      
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Company</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Zero-Waste Login</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #fdfdf6;
+      color: #2e7d32;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    .login-form {
+      background-color: #ffffff;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .login-form img {
+      width: 100px;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+
+    .login-form h2 {
+      margin-bottom: 1.5rem;
+      font-size: 1.8rem;
+      color: #2e7d32;
+    }
+
+    .login-form input {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+.login-form checkbox-group {
+  margin-right: 0.5rem;
+
+}
+    .login-form button {
+      background-color: #2e7d32;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #e8f5e9;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #2e7d32;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="login-form">
+      <img src="images\final logoof zero waste.png" alt="final logoof zero waste" />
+      <h2>Login</h2>
+      <form action="/login" method="POST">
+        <input type="text" id="username" name="username" required autocomplete="username" aria-label="Username" placeholder="username"/>
+        <input type="password" id="password" name="password" required autocomplete="current-password" aria-label="Password" placeholder="password" />
+        <button type="submit">Login</button>
+      </form>
+    </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Zero-Waste Dashboard</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

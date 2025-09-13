@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zero-Waste Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #fdfdf6;
+      color: #2e7d32;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: #e8f5e9;
+    }
+    .logo img {
+      height: 90px;
+      border-radius: 10ox;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #2e7d32;
+      font-weight: 500;
+    }
+    .cta-button {
+      padding: 0.5rem 1rem;
+      border: 2px solid #2e7d32;
+      background: none;
+      color: #2e7d32;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .hero {
+      text-align: center;
+      padding: 3rem 2rem;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .get-started {
+      background-color: #2e7d32;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      background-color: #f1f8e9;
+    }
+    .feature {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .feature h3 {
+      margin-top: 0;
+    }
+    .join {
+      text-align: center;
+      padding: 2rem;
+    }
+    .join button {
+      background-color: #2e7d32;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #2e7d32;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    footer a {
+      color: white;
+      margin-right: 1rem;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="images\final logoof zero waste.png" alt="final logoof zero waste" />
+    </div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Features</a>
+      <a href="#">Contact</a>
+      <button class="cta-button">Login / Register</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Track. Reduce. Go Zero-Waste.</h1>
+    <p>Helping businesses measure packaging waste and find eco-friendly alternatives.</p>
+    <button class="get-started">Get Started Free</button>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <h3>📊 Waste Analytics</h3>
+      <p>Track and analyze packaging waste data.</p>
+    </div>
+    <div class="feature">
+      <h3>🌱 Eco-Friendly Alternatives</h3>
+      <p>Find sustainable packaging options.</p>
+    </div>
+    <div class="feature">
+      <h3>🔔 Notifications & Alerts</h3>
+      <p>Get reminders and updates.</p>
+    </div>
+    <div class="feature">
+      <h3>📁 Reports & Exports</h3>
+      <p>Generate reports and export data.</p>
+    </div>
+  </section>
+
+  <section class="join">
+    <h2>Join the movement — build a sustainable future today.</h2>
+    <button>Sign Up Now</button>
+  </section>
+
+  <footer>
+    <div>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms</a>
+      <a href="#">Contact</a>
+    </div>
+    <div>
+      <a href="#">🌐 Facebook</a>
+      <a href="#">🐦 Twitter</a>
+      <a href="#">📸 Instagram</a>
+    </div>
+  </footer>
+
+</body>
+</html>
